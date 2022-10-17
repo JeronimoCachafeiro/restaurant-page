@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector(".content");function t(e,t){const n=document.createElement(e);return"img"===e?n.setAttribute("src",t):n.textContent=t,n}e.appendChild(t("h1","Lorem ipsum")),e.appendChild(t("img","../src/image.png")),e.appendChild(t("p","Lorem ipsum dolor sit amet, consectetur adipiscing elit."))})();
